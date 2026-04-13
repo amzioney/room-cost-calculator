@@ -93,7 +93,7 @@ with st.expander("⚙️ 基础设置", expanded=True):
         st.info(f"共 **{total_days}** 天")
     with c4:
         discount = st.number_input(
-            "退款折扣", min_value=0.0, max_value=1.0, value=1.0, step=0.01,
+            "退款折扣", min_value=0.0, max_value=1.0, value=0.95, step=0.01,
             help="实际退款 = 退款 × 折扣，如 0.95 = 退 95%")
 
 
